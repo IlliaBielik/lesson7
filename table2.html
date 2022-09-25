@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="main-botton">
+    <a class="main-botton__link" href="index.html">Back to main</a>
+  </div>
+
+  <div class="bg-table"></div>
+  <div class="bg-overlay"></div>
+
+  <h1 class="name">Таблица №2</h1>
+
+  <table class="w90">
+    <caption>Родительская таблица</caption>
+    <tr>
+      <td class="w40" colspan="2"><span class="w40__text">1-2 - ширину указываем 40%</span></td>
+      <td class="w60"><span class="w60__text">3 - ширина составляет 60%</span></td>
+    </tr>
+    <tr>
+      <td class="w28"><span class="w28__text">4-7 ячейки с шириной 28%</span></td>
+      <td class="w72" colspan="2" rowspan="2">
+
+        <!-- Начало дочерней таблицы -->
+
+        <table class="w80">
+          <caption>Дочерняя таблица</caption>
+          <tr>
+            <td>1</td>
+            <td rowspan="3">2</td>
+            <td class="h200" rowspan="2">3-6</td>
+          </tr>
+          <tr>
+            <td class="h200" rowspan="2">4-7</td>
+          </tr>
+          <tr>
+            <td>9</td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+    <tr>
+      <td class="w28"><span class="w28__text">7 - минимальная высота всех ячеек 50px</span></td>
+    </tr>
+
+  </table>
+
+</body>
+
+</html>

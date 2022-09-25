@@ -1,0 +1,154 @@
+.main-botton {
+  width: auto;
+  height: auto;
+  background-color: blue;
+  text-align: center;
+  position: absolute;
+  left: 80%;
+  transform: translate(25%, -15%);
+  border: solid 3px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-botton__link {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.main-botton__link:hover {
+  transition: 0.3s;
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+}
+.bg-table {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #79B6D2;
+  background-image: url(../img/bg-table.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+}
+.bg-overlay {
+  width: 100vw;
+  min-height: 100%;
+  background-color: rgba(255, 255, 255, 0.281);
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+}
+.article {
+text-align: center;
+border: solid 2px;
+margin-left: 50%;
+transform: translate(-50%);
+background-color: azure;
+}
+.menu {
+text-align: center;
+margin-top: 15%;
+}
+.menu-list {
+list-style: none;
+padding: 0;
+}
+.menu-list__item {
+display: inline;
+margin: 40px;
+border: 3px solid;
+padding: 5px;
+background-color: bisque;
+}
+.menu-list__link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+/* Таблицы */
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+  background-color: aliceblue;
+}
+.name {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+td {
+  border: solid 1px;
+  width: 33.33%;
+  height: 50px;
+}
+.h200 {
+  height: 200px;
+  
+}
+.w90 {
+  width: 90%;
+}
+.w40 {
+  width: 40%;
+  font-style: oblique;
+}
+.w40:hover {
+  background-color: rgb(16, 179, 124);
+  transition: 0.9s;
+}
+.w40:hover .w40__text {
+  display: block;
+}
+.w40__text {
+  display: none;
+}
+.w60 {
+  width: 60%;
+  font-style: oblique;
+}
+.w60:hover {
+  background-color: rgb(16, 179, 124);
+  transition: 0.9s;
+}
+.w60:hover .w60__text {
+  display: block;
+}
+.w60__text {
+  display: none;
+}
+.w28 {
+  width: 28%;
+}
+.w28:hover {
+  background-color: aquamarine;
+  transition: 0.9s;
+}
+.w28__text {
+  display: none;
+}
+.w28:hover .w28__text {
+  display: block;
+}
+.w72 {
+  width: 72%;
+}
+caption {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: rgb(0, 255, 149);
+}
+.w80 {
+  width: 80%;
+  margin-bottom: 10px;
+}
